@@ -1,264 +1,196 @@
 <!DOCTYPE html>
-<html>
-<!-- https://replit.com/@mrjsng/HTML-CSS-Intro -->
+<html class="no-js" lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>My Portfolio</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <div class="segment">
+            <img src="images/waltuh.jpg" alt="Walter" style="width:1320px;height:10px;"/>
+    </div>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What Da Dog Doin?</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-<header>
-    <ul id="menu" class="shadow" style="">
-        <li>
-            <a href="#about" class="navlink">About</a>
-        </li>
-        <li>
-            <a href="#experience" class="navlink">Experience</a>
-        </li>
-        <li>
-            <a href="#education" class="navlink">Education</a>
-        </li>
-        <li>
-            <a href="#projects" class="navlink">Projects</a>
-        </li>
-        <li>
-            <a href="#skills" class="navlink">Skills</a>
-        </li>
-        <li>
-            <a href="#contact" class="navlink">Contact</a>
-        </li>
-    </ul>
-</header>
-<!-- End header -->
-
-<div id="lead">
-    <div id="lead-content">
-        <h1>Ryan Fitzgerald</h1>
-        <h2 class>Software Engineer</h2>
-        <a href="#" class="btn-rounded-white">Download Resume</a>
-        <a href="#education"> Jump to Education</a>
-    </div>
-    <!-- End #lead-content -->
-
-    <div id="lead-overlay"></div>
-
-    <div id="lead-down">
-        <span>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-        </span>
-    </div>
-    <!-- End #lead-down -->
-</div>
-<!-- End #lead -->
-
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div>
-                <h2>About Me</h2>
-            </div>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                    eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                    ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End #about -->
-
-<div id="experience" class="background-alt">
-    <h2 class="heading">Experience</h2>
-    <div id="experience-timeline">
-        <div data-date="September 2015 – September 2016">
-            <h3>Employer Name</h3>
-            <h4 class="job-title">Job Title</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-
-        <div data-date="September 2015 – September 2016">
-            <h3>Employer Name</h3>
-            <h4 class="job-title">Job Title</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-
-        <div data-date="September 2015 – September 2016">
-            <h3>Employer Name</h3>
-            <h4 class="job-title">Job Title</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-    </div>
-</div>
-<!-- End #experience -->
-
-<div id="education">
-    <h2 class="heading">Education</h2>
-    <div class="education-block">
-        <h3>University of Ottawa</h3>
-        <span class="education-date">Sept 2016 - Sept 2017</span>
-        <h4>Bachelor of Science in Computer Science</h4>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-        </p>
-    </div>
-    <!-- End .education-block -->
-
-    <div class="education-block">
-        <h3>University of Ottawa</h3>
-        <span class="education-date">Sept 2016 - Sept 2017</span>
-        <h4>Bachelor of Science in Computer Science</h4>
-        <ul>
+    <header>
+        <ul id="menu" class="shadow">
             <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <a href="#about">About</a>
             </li>
             <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <a href="#experience">Experience</a>
             </li>
             <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
             </li>
         </ul>
-    </div>
-    <!-- End .education-block -->
-</div>
-<!-- End #education -->
+    </header>
+    <!-- End header -->
 
-<div id="projects" class="background-alt">
-    <h2 class="heading">Projects</h2>
-    <div class="container">
-        <div class="row">
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/project.png" />
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Project Name Here</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Yeo Jun Chian</h1>
+            <h2>Student</h2>
+        </div>
+        <div class="image">
+            <img src="images/waltuh.jpg" alt="Walter" style="width:300px;height:100px;"/>
+        </div>
+        <span>Photo of me in 2022</span>
+        <!-- End #lead-content -->
 
-            <div class="project shadow-large">
+        <div id="lead-overlay"></div>
 
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Project Name Here</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+        <div class="segment">
+            <img src="images/waltuh.jpg" alt="Walter" style="width:1320px;height:10px;"/>
         </div>
     </div>
-</div>
-<!-- End #projects -->
+    <!-- End #lead -->
 
-<div id="skills">
-    <h2 class="heading">Skills</h2>
-    <ul>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>Ruby</li>
-        <li>Go</li>
-        <li>Node.js</li>
-        <li>AngularJs</li>
-        <li>React</li>
-        <li>Elixir</li>
-        <li>Java</li>
-        <li>C</li>
-        <li>C#</li>
-        <li>C++</li>
-        <li>Ruby on Rails</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>Ruby</li>
-        <li>Go</li>
-        <li>Node.js</li>
-        <li>AngularJs</li>
-        <li>React</li>
-        <li>Elixir</li>
-        <li>Java</li>
-        <li>C</li>
-        <li>C#</li>
-        <li>C++</li>
-        <li>Ruby on Rails</li>
-    </ul>
-</div>
-<!-- End #skills -->
-
-<div id="contact">
-    <h2>Get in Touch</h2>
-    <div id="contact-form">
-        <form method="POST" action="https://formspree.io/email@email.com">
-            <input type="hidden" name="_subject" value="Contact request from personal website" />
-            <input type="email" name="_replyto" placeholder="Your email" required>
-            <textarea name="message" placeholder="Your message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </div>
-    <!-- End #contact-form -->
-</div>
-<!-- End #contact -->
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5 copyright">
-                <p>
-                    Copyright &copy; 2023 YOUR NAME
-                </p>
-            </div>
-            <div class="col-sm-2 top">
-                <span id="to-top">
-                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                </span>
-            </div>
-            <div class="col-sm-5 social">
-                <ul>
-                    <li>
-                        <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true">GitHub</i></a>
-                    </li>
-                    <li>
-                        <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true">Stack Overflow</i></a>
-                    </li>
-                    <li>
-                        <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true">Linked-In</i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true">Facebook</i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true">Twitter</i></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true">Google Plus</i></a>
-                    </li>
-                </ul>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        My name is Walter Hartwell White. I live at 308 Negra Arroyo Lane, Albuquerque, New Mexico, 87104. This is my confession. If you're watching this tape, I'm probably dead, murdered by my brother-in-law Hank Schrader. Hank has been building a meth empire for over a year now and using me as his chemist. Shortly after my 50th birthday, Hank came to me with a rather, shocking proposition. He asked that I use my chemistry knowledge to cook methamphetamine, which he would then sell using his connections in the drug world. Connections that he made through his career with the DEA. I was... astounded, I... I always thought that Hank was a very moral man and I was... thrown, confused, but I was also particularly vulnerable at the time, something he knew and took advantage of. I was reeling from a cancer diagnosis that was poised to bankrupt my family. Hank took me on a ride along, and showed me just how much money even a small meth operation could make. And I was weak. I didn't want my family to go into financial ruin so I agreed. Every day, I think back at that moment with regret. I quickly realized that I was in way over my head, and Hank had a partner, a man named Gustavo Fring, a businessman. Hank essentially sold me into servitude to this man, and when I tried to quit, Fring threatened my family. I didn't know where to turn. Eventually, Hank and Fring had a falling out. From what I can gather, Hank was always pushing for a greater share of the business, to which Fring flatly refused to give him, and things escalated. Fring was able to arrange, uh I guess I guess you call it a "hit" on my brother-in-law, and failed, but Hank was seriously injured, and I wound up paying his medical bills which amounted to a little over $177,000. Upon recovery, Hank was bent on revenge, working with a man named Hector Salamanca, he plotted to kill Fring, and did so. In fact, the bomb that he used was built by me, and he gave me no option in it. I have often contemplated suicide, but I'm a coward. I wanted to go to the police, but I was frightened. Hank had risen in the ranks to become the head of the Albuquerque DEA, and about that time, to keep me in line, he took my children from me. For 3 months he kept them. My wife, who up until that point, had no idea of my criminal activities, was horrified to learn what I had done, why Hank had taken our children. We were scared. I was in Hell, I hated myself for what I had brought upon my family. Recently, I tried once again to quit, to end this nightmare, and in response, he gave me this. I can't take this anymore. I live in fear every day that Hank will kill me, or worse, hurt my family. I... All I could think to do was to make this video in hope that the world will finally see this man, for what he really is.
+                    </p>
+                </div>
             </div>
         </div>
+        <div class="segment">
+            <img src="images/waltuh.jpg" alt="Walter" style="width:1320px;height:10px;"/>
+        </div>
     </div>
-</footer>
-<!-- End footer -->
+    <!-- End #about -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/scripts.min.js"></script>
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <h3>McDonald's Cashier</h3>
+            <span class="experience-date">Nov 2022 - Dec 2022</span>
+            <p>
+                I worked at Mackies
+            </p>
+        </div>
+        <div class="segment">
+            <img src="images/waltuh.jpg" alt="Walter" style="width:1320px;height:10px;"/>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Nanyang Junior College</h3>
+            <span class="education-date">2022 - 2023</span>
+            <h4>H2 Computing</h4>
+            <p>
+                HTML, Python and CSS Bravo!
+            </p>
+        </div>
+        <!-- End .education-block -->
+        <div class="segment">
+            <img src="images/waltuh.jpg" alt="Walter" style="width:1320px;height:10px;"/>
+        </div>
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <p>
+                            I have no projects.
+                        </p>
+                    <!-- End .project-info -->
+                    <div class="project-image">
+                        <img src="images/waltuh.jpg" alt="Walter" style="width:300px;height:100px;"/>
+                    </div>
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+        <div class="segment">
+            <img src="images/waltuh.jpg" alt="Walter" style="width:1320px;height:10px;"/>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <p>
+                No
+            </p>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/MyDog1" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <img src="images/waltuh.jpg" alt="Walter" style="width:1320px;height:10px;"/>
+                </div>
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> Yeo Jun Chian
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
 
 </html>
