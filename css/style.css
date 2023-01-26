@@ -1,22 +1,49 @@
+body {
+    background-color: #000000
+}
+
+ul {
+    color: #FFFFFF
+}
+
+li {
+    color: #FFFFFF
+}
+
 h1 {
     font-size: 72px;  
+    color: #ffffff
 }
 
 h2 {
-    color: #00ff00;
+    color: #d6c195;
+}
+
+h3 {
+    color: #ffd1f5
+}
+
+h4 {
+    color: #b5b5b5
 }
 
 h4.job-title {
 }
 
-h2#menu {
-    font-weight: bold;
-    font-size: 14px;
-    color: purple;
+p {
+    color: #FFFFFF
+}
+
+div {
+    color: #FFFFFF
+}
+
+span {
+    color: #FFFFFF
 }
 
 a {
-    color: purple;
+    color: #0008ff;
 }
 
 h2#job {
