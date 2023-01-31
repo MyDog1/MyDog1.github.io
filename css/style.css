@@ -2,10 +2,6 @@ body {
     background-color: #000000
 }
 
-ul {
-    color: #FFFFFF
-}
-
 li {
     color: #FFFFFF
 }
@@ -43,7 +39,7 @@ span {
 }
 
 a {
-    color: #0008ff;
+    color: #fb00ff;
 }
 
 h2#job {
